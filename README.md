@@ -1,4 +1,4 @@
 # Kokoa clone 2020 - Nomadcoder
 
-CSS got so much better. 
+HTML and CSS got so much better!
 
