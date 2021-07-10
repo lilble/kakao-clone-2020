@@ -1,10 +1,20 @@
 .user-component {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+}
+.user-component__column:last-child {
+  color: var(--gray-text);
+}
+.user-component__column:last-child span {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  right: 3px;
 }
 .user-component__avatar {
   width: 70px;
@@ -25,7 +35,7 @@
 
 .user-component__title {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
 }
 .user-component__subtitle {
   margin-top: 8px;
