@@ -4,7 +4,7 @@
   align-items: center;
   padding: 45px var(--horizontal-space) 0px var(--horizontal-space);
   position: fixed;
-  width: 100vw;
+  width: var(--wid);
   box-sizing: border-box;
   background-color: white;
   z-index: 1;

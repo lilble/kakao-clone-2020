@@ -2,20 +2,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 90px;
+}
+.user-component__column {
+  height: 100%;
 }
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
 .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
   color: var(--gray-text);
 }
 .user-component__column:last-child span {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
   position: relative;
   right: 3px;
+  margin: 4px 0;
 }
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
