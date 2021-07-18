@@ -15,6 +15,12 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
+
+#friends-display-link-none {
+  display: block;
+  height: 0.1px;
+}
+
 .friends-screen {
   padding: 0px var(--horizontal-space);
   position: relative;

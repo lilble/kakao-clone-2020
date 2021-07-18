@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -17,5 +18,15 @@ body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+  width: var(--wid);
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
   position: relative;
+  margin-top: 110px;
+}
+
+.chats-time {
+  font-size: 13px;
 }
