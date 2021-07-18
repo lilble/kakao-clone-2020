@@ -4,4 +4,6 @@
   --gray-text: rgba(0, 0, 0, 0.4);
   --horizontal-space: 22px;
   --wid: 450px;
+  --border-top: 3px solid var(--gray-nav);
+  --border-pad: 15px;
 }

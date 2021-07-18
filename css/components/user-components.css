@@ -24,6 +24,9 @@
   right: 3px;
   margin: 4px 0;
 }
+.user-component__column:last-child i {
+  margin-left: 5px;
+}
 
 .user-component__avatar {
   width: 70px;
