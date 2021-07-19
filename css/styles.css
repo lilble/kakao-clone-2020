@@ -12,6 +12,7 @@
 @import "components/channel-header.css";
 @import "components/icons.css";
 @import "components/alt-screen-header.css";
+@import "components/reply.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -42,4 +43,7 @@ body {
 }
 .space {
   height: 30px;
+}
+.gray {
+  color: var(--gray-text);
 }
