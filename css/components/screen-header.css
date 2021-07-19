@@ -18,7 +18,7 @@
 }
 
 .screen-header__icons .fa-cog {
-  transition: all 3s ease-in-out;
+  transition: transform 3s ease-in-out;
 }
 .screen-header__icons .fa-cog:hover {
   transform: rotateZ(1000deg);
