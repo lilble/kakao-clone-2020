@@ -2,15 +2,76 @@
   background-color: #abc1d1;
   height: 1000vh;
 }
-.chatting-date {
-  width: 250px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: teal;
+#chatting-screen .status-bar {
+  background-color: #abc1d1;
+}
+#chatting-screen header {
+  background-color: #abc1d1;
 }
 .chatting-main {
-  width: var(--wid);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 var(--horizontal-space);
+}
+.chatting-date {
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.13);
+  color: white;
+  font-size: 14px;
   display: flex;
   justify-content: center;
-  padding: 0;
+  align-items: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.chatting-message {
+  display: flex;
+  align-items: flex-start;
+  width: var(--wid);
+  margin-bottom: 20px;
+}
+.chatting-message img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+.chatting-message__name {
+  display: block;
+  color: var(--gray-text);
+  font-size: 15px;
+  font-weight: 700;
+  height: 25px;
+}
+.chatting-message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.chatting-message__bubble {
+  padding: 12px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: 700;
+}
+.chatting-message__bubble--your {
+  background-color: white;
+  border-top-left-radius: 0;
+}
+
+.chatting-message__time {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gray-text);
+  margin: 0 5px;
+}
+.chatting-message--my {
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.chatting-message__bubble--my {
+  background-color: var(--yellow);
+  border-top-right-radius: 0;
 }
