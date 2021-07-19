@@ -1,0 +1,16 @@
+#chatting-screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+.chatting-date {
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: teal;
+}
+.chatting-main {
+  width: var(--wid);
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}

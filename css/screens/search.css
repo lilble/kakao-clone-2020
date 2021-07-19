@@ -1,22 +1,3 @@
-.find-icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 90px;
-  padding: 20px 0;
-}
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-  width: 90px;
-  height: 90px;
-}
-.find-icons__icon span {
-  height: 40px;
-}
 .open-chat__chat {
   border-bottom: var(--border-top);
   padding-bottom: 13px;

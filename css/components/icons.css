@@ -1,0 +1,21 @@
+.menu-icons {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding-bottom: 20px;
+}
+.menu-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 5px;
+}
+.menu-icons__icon span {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}

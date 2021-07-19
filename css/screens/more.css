@@ -1,0 +1,25 @@
+.user-component__subtitle i {
+  color: tomato;
+}
+.suggest__apps {
+  display: flex;
+}
+.suggest__apps__app {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.suggest__apps__app img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.suggest__apps__app span {
+  color: var(--gray-text);
+  font-size: 15px;
+  font-weight: 600;
+}
