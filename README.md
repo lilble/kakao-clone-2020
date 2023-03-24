@@ -1,5 +1,3 @@
-# Kokoa clone 2020 - Nomadcoder
+# Kakao-talk clone 2020 
 
-HTML and CSS got so much better!
-
-asdfasdfadsf
+Only used HTML, CSS
